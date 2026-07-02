@@ -1,9 +1,9 @@
-
-
-const Footer = () => {
+export default function Footer() {
   return (
-    <div>Footer</div>
-  )
+    <footer className="bg-black text-white py-10">
+      <div className="wrapper">
+        <p className="text-center">&copy; 2024 Macbook. All rights reserved.</p>
+      </div>
+    </footer>
+  );
 }
-
-export default Footer
